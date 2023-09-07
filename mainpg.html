@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minutesconvetor.in</title>
+    <style>
+        .main {
+            background-image: linear-gradient(25deg,red,blue);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            padding: 10%;
+        }
+        #ip {
+            border-radius: 10%;
+            margin: 20%;
+        }
+        #lb {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="" id="frm">
+            <label for="lb">ENTER HOURS</label><br>
+            <input id="ip" type="number" placeholder="eg.1,2,3" required>
+            <button id="btn" style="margin: 10%;" onclick="come()">ENTER</button>
+            <div id="p">
+
+            </div>
+        </form>
+    </div>
+    <script>
+        function come(){
+            let hour = Number(document.getElementById("ip").value)
+            let min = hour*60
+            let out = document.getElementById("p")
+            out.innerHTML = min
+        }
+
+    </script>
+</body>
+</html>
