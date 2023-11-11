@@ -1,0 +1,26 @@
+.contact-btn {
+    height: 5vh;
+    width: 10vh;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.img {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.main-div {
+    background-color: #663dff;
+background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-img {
+    height: 10vh;
+    width: 20vw;
+}
